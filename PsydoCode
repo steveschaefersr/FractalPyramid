@@ -1,0 +1,9 @@
+Set Random Number 1 to (0-500)
+Set Random Number 2 to (0-500)
+Turn pixal (Number 1, Number 2) On
+Set Old Random Number 1 to Number 1
+Set Old Random Number 2 to Number 2
+Set Random Number 1 to (1-500) / 2
+Set Ramdpm Number 2 to (1-500) /2
+Turn onpixel (Number 1, Number 2)
+Goto 4 and repeat 500 times.
