@@ -1,9 +1,6 @@
-Set Random Number 1 to (0-500)
-Set Random Number 2 to (0-500)
-Turn pixal (Number 1, Number 2) On
-Set Old Random Number 1 to Number 1
-Set Old Random Number 2 to Number 2
-Set Random Number 1 to (1-500) / 2
-Set Ramdpm Number 2 to (1-500) /2
-Turn onpixel (Number 1, Number 2)
-Goto 4 and repeat 500 times.
+import random
+random_X = random.randint(1, 500)
+print("Random X: %i" %random_X)
+random_Y = random.randint(1, 500)
+print("Random Y: %i" %random_Y)
+print("Random X =", random_X, "Random Y =", random_Y)
